@@ -4128,6 +4128,15 @@
 					(hide yes)
 				)
 			)
+			(property "PROD_ID" "CONN-25962"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "SparkFun connector"
 				(at 0 0 0)
 				(effects
@@ -15922,6 +15931,15 @@
 		)
 		(property "Description" "Basic 0.1\" PTH"
 			(at 237.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-25962"
+			(at 237.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)

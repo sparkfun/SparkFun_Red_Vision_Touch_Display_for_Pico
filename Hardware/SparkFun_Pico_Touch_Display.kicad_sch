@@ -63,6 +63,15 @@
 					(hide yes)
 				)
 			)
+			(property "PROD_ID" "CONN-25963"
+				(at 0 -43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "FPC, Dual Contact, 21 pins"
 				(at 0 0 0)
 				(effects
@@ -7893,6 +7902,15 @@
 					(hide yes)
 				)
 			)
+			(property "PROD_ID" "LCD-25764"
+				(at 0 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "2.0\" LCD TFT , Capacitive Touch"
 				(at 0 0 0)
 				(effects
@@ -14640,6 +14658,15 @@
 				(hide yes)
 			)
 		)
+		(property "PROD_ID" "CONN-25963"
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "9db453fe-82d6-4c25-a8de-55e2c51440f3")
 		)
@@ -16289,6 +16316,15 @@
 		)
 		(property "Description" "2.0\" LCD TFT with Capacitive Touchscreen"
 			(at 90.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "LCD-25764"
+			(at 88.9 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

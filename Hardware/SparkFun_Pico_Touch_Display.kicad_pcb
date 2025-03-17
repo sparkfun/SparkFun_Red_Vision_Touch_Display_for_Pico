@@ -854,6 +854,19 @@
 				)
 			)
 		)
+		(property "PROD_ID" "CONN-25962"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb67f019-670a-41a5-8e9e-fb0742086383")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/464a2b5b-f0a2-44d6-8720-7b598664279d")
 		(sheetname "Root")
@@ -2584,6 +2597,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PROD_ID" "CONN-25963"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a71af275-5a8c-4c6e-83fb-1d03ca44540f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4945,6 +4971,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a2b0dadf-a48f-43c0-9064-8be376aa4a8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PROD_ID" "LCD-25764"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c0cbdf6-4cfe-4f2b-8a22-68bd9bf1f7c5")
 			(effects
 				(font
 					(size 1 1)
@@ -8603,7 +8642,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/BreakoutBoards/BSS138.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9890,7 +9929,7 @@
 			(roundrect_rratio 0.25)
 			(net 53 "unconnected-(U2-IO7-Pad12)")
 			(pinfunction "IO7")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f8ed806d-d17d-4efe-aee7-29ab7dfc3353")
 		)
 		(pad "13" smd roundrect
@@ -20899,7 +20938,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 60 "unconnected-(J2-Pin_4-Pad4)")
 			(pinfunction "Pin_4")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "5936cf1b-f19b-4ed0-9bde-09f45afbe4b0")
 		)
 		(pad "5" smd rect

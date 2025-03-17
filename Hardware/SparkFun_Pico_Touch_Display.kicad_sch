@@ -5417,7 +5417,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn.sparkfun.com/datasheets/BreakoutBoards/BSS138.pdf"
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -8677,6 +8677,10 @@
 		(uuid "0cf1ced4-de43-47d7-9e9f-ad35ccb3984f")
 	)
 	(no_connect
+		(at 172.72 53.34)
+		(uuid "13a7bf92-c306-49b3-bc16-a796e885b206")
+	)
+	(no_connect
 		(at 45.72 30.48)
 		(uuid "4f0cc68a-82a7-4d5c-9f15-4001286a9580")
 	)
@@ -8713,7 +8717,7 @@
 		(uuid "d6fea50d-1411-4579-b43b-d2370958262b")
 	)
 	(no_connect
-		(at 71.12 36.83)
+		(at 71.12 38.1)
 		(uuid "fedc5af5-08aa-4cd5-a8d6-db25654e332b")
 	)
 	(wire
@@ -11356,7 +11360,7 @@
 		)
 		(uuid "2bb8be1c-bf8e-4de3-828d-a0fc9668dabf")
 	)
-	(text "GPIO Expander"
+	(text "GPIO Expander - PCA9554PW"
 		(exclude_from_sim no)
 		(at 146.05 16.51 0)
 		(effects
@@ -16915,7 +16919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/BreakoutBoards/BSS138.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
 			(at 33.02 134.62 0)
 			(effects
 				(font

@@ -5711,7 +5711,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-IC-Special-Function:PCA9554PW"
+		(symbol "SparkFun-IC-Special-Function:PCA9534PW"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5724,7 +5724,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PCA9554PW"
+			(property "Value" "PCA9534PW"
 				(at 2.54 11.43 0)
 				(effects
 					(font
@@ -5742,7 +5742,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9554.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9534.pdf"
 				(at 0 -20.955 0)
 				(effects
 					(font
@@ -5760,7 +5760,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "IC-23589"
+			(property "PROD_ID" "IC-26490"
 				(at 0 -23.495 0)
 				(effects
 					(font
@@ -5769,7 +5769,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun TCA9557 8 pin SMBUS I2C Expander with Reset"
+			(property "ki_keywords" "SparkFun TCA9534 8 pin SMBUS I2C Expander with Reset"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5787,7 +5787,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PCA9554PW_0_1"
+			(symbol "PCA9534PW_0_1"
 				(rectangle
 					(start -7.62 -12.7)
 					(end 7.62 10.16)
@@ -5800,7 +5800,7 @@
 					)
 				)
 			)
-			(symbol "PCA9554PW_1_1"
+			(symbol "PCA9534PW_1_1"
 				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
@@ -11387,7 +11387,7 @@
 		)
 		(uuid "2bb8be1c-bf8e-4de3-828d-a0fc9668dabf")
 	)
-	(text "GPIO Expander - PCA9554PW"
+	(text "GPIO Expander - PCA9534PW"
 		(exclude_from_sim no)
 		(at 146.05 16.51 0)
 		(effects
@@ -14417,7 +14417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-IC-Special-Function:PCA9554PW")
+		(lib_id "SparkFun-IC-Special-Function:PCA9534PW")
 		(at 162.56 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14427,7 +14427,7 @@
 		(fields_autoplaced yes)
 		(uuid "12f41ad1-4fb9-4f14-bc79-ad821d6c2cec")
 		(property "Reference" "U2"
-			(at 164.7541 29.21 0)
+			(at 164.7541 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14435,8 +14435,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA9554PW"
-			(at 164.7541 31.75 0)
+		(property "Value" "PCA9534PW"
+			(at 164.7541 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14453,7 +14453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9554.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9534.pdf"
 			(at 162.56 64.135 0)
 			(effects
 				(font
@@ -14471,7 +14471,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-23589"
+		(property "PROD_ID" "IC-26490"
 			(at 162.56 66.675 0)
 			(effects
 				(font

@@ -7931,7 +7931,7 @@
 		(descr "SOT-416FL")
 		(tags "SparkFun")
 		(property "Reference" "Q1"
-			(at 0 0.9 360)
+			(at 0 0.9 0)
 			(layer "B.Fab")
 			(uuid "92c7445c-7dd0-44a4-8a0e-49adca7db094")
 			(effects
@@ -7943,7 +7943,7 @@
 			)
 		)
 		(property "Value" "RE1C002UNTCL"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "B.Fab")
 			(uuid "04aa688f-8674-4c21-94e5-35f8dd627099")
 			(effects
@@ -8924,7 +8924,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PCA9554PW"
+		(property "Value" "PCA9534PW"
 			(at 0 -3.45 0)
 			(layer "B.Fab")
 			(uuid "d777f702-bb15-4145-a7cd-8b00715ec008")
@@ -8950,7 +8950,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9554.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9534.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8978,7 +8978,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "IC-23589"
+		(property "PROD_ID" "IC-26490"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")

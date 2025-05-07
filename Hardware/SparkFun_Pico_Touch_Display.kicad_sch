@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Pico Touch Display")
-		(date "2025-02-27")
-		(rev "v01")
+		(date "2025-05-07")
+		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Dryw Wade")
 	)

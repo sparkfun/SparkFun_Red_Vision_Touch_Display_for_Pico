@@ -8799,6 +8799,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 165.1) (xy 33.02 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0587f406-672c-46e6-a26f-b6957c36a5fa")
+	)
+	(wire
+		(pts
 			(xy 71.12 48.26) (xy 73.66 48.26)
 		)
 		(stroke
@@ -8806,6 +8816,16 @@
 			(type default)
 		)
 		(uuid "066ca1e9-f664-4479-af54-6386e8e8e03b")
+	)
+	(wire
+		(pts
+			(xy 27.94 157.48) (xy 27.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f7f2f6-4339-4b34-a4dd-a454ea809060")
 	)
 	(polyline
 		(pts
@@ -8906,6 +8926,16 @@
 			(type default)
 		)
 		(uuid "0e0647f8-80b7-47bc-a5d6-b0c536555ac6")
+	)
+	(wire
+		(pts
+			(xy 33.02 167.64) (xy 35.56 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e367426-ed8a-4c69-ad88-449f3ee52e06")
 	)
 	(wire
 		(pts
@@ -9346,6 +9376,16 @@
 			(type default)
 		)
 		(uuid "38a0bb0d-7e51-4113-860b-1f8da20e478b")
+	)
+	(wire
+		(pts
+			(xy 33.02 157.48) (xy 33.02 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9fa65d-765b-4f8d-aea2-d437e498284a")
 	)
 	(wire
 		(pts
@@ -10029,6 +10069,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 167.64) (xy 25.4 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8437c931-0b6f-47db-bc4e-6bf7dfa9c07f")
+	)
+	(wire
+		(pts
 			(xy 251.46 53.34) (xy 254 53.34)
 		)
 		(stroke
@@ -10246,6 +10296,16 @@
 			(type default)
 		)
 		(uuid "958376de-55ef-4fed-8ca3-e231428014a4")
+	)
+	(wire
+		(pts
+			(xy 27.94 165.1) (xy 27.94 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96954c62-bc01-4be1-9443-148f1dcead50")
 	)
 	(wire
 		(pts
@@ -12171,6 +12231,28 @@
 			)
 		)
 	)
+	(global_label "DISP_~{RST}"
+		(shape input)
+		(at 35.56 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d27809c-204b-4be0-b06a-db8b1bf542d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.3142 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO8"
 		(shape input)
 		(at 40.64 55.88 180)
@@ -12347,7 +12429,7 @@
 			)
 		)
 	)
-	(global_label "CAM_~{RST}"
+	(global_label "CAM_RST"
 		(shape input)
 		(at 175.26 48.26 0)
 		(fields_autoplaced yes)
@@ -12677,7 +12759,7 @@
 			)
 		)
 	)
-	(global_label "CAM_~{RST}"
+	(global_label "CAM_RST"
 		(shape input)
 		(at 226.06 129.54 180)
 		(fields_autoplaced yes)
@@ -13117,7 +13199,7 @@
 			)
 		)
 	)
-	(global_label "TP_~{RESET}"
+	(global_label "TP_~{RST}"
 		(shape input)
 		(at 175.26 43.18 0)
 		(fields_autoplaced yes)
@@ -13447,7 +13529,7 @@
 			)
 		)
 	)
-	(global_label "TP_~{RESET}"
+	(global_label "TP_~{RST}"
 		(shape input)
 		(at 53.34 149.86 180)
 		(fields_autoplaced yes)
@@ -13953,6 +14035,28 @@
 			)
 		)
 	)
+	(global_label "TP_~{RST}"
+		(shape input)
+		(at 25.4 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dce17b7f-ad3d-4e02-8e23-4f51dc74ead0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.4645 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAM_D0"
 		(shape input)
 		(at 251.46 127 0)
@@ -14213,6 +14317,73 @@
 			(project "SparkFun_Pico_Touch_Display"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 33.02 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08728379-e206-4cd1-be29-cfdc8ee2e00d")
+		(property "Reference" "#PWR033"
+			(at 33.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 33.02 153.67 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 33.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ae0b6bc-fd46-4a27-a5c5-89b6f02753d5")
+		)
+		(instances
+			(project "SparkFun_Pico_Touch_Display"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16937,6 +17108,85 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Resistor:100k_0603")
+		(at 33.02 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f8d56ee-8f50-4718-8b6b-9b1ddae246f8")
+		(property "Reference" "R12"
+			(at 35.56 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 35.56 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+			(at 37.338 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 41.91 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-07828"
+			(at 39.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e1208d1-d318-442b-b7ae-3340dadd9558")
+		)
+		(pin "1"
+			(uuid "b26ff9c8-ad27-44ae-8a86-bcb7bb701b1b")
+		)
+		(instances
+			(project "SparkFun_Pico_Touch_Display"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:Q_NMOS_0.2A_20V")
 		(at 33.02 121.92 0)
 		(unit 1)
@@ -17511,6 +17761,73 @@
 			(project "SparkFun_Default_KiCad_Setup"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 27.94 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8da39996-8d86-435e-88a5-5512c2471c96")
+		(property "Reference" "#PWR030"
+			(at 27.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 27.94 153.67 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 27.94 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "443f7de1-73b3-4aa3-9718-09c9b574235f")
+		)
+		(instances
+			(project "SparkFun_Pico_Touch_Display"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -18122,6 +18439,85 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:100k_0603")
+		(at 27.94 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0280e66-0a3e-4583-b186-22bbd8beaa45")
+		(property "Reference" "R11"
+			(at 25.4 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 25.4 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+			(at 32.258 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 36.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-07828"
+			(at 34.29 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b44df87b-9f7f-41f4-b1aa-0fb57362d9ea")
+		)
+		(pin "1"
+			(uuid "889ab60d-dbb5-43a2-a01b-9470dcd50b0f")
+		)
+		(instances
+			(project "SparkFun_Pico_Touch_Display"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "R11")
 					(unit 1)
 				)
 			)
